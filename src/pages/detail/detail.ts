@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {DetailPage} from "../detail/detail";
 
 /**
- * Generated class for the ReplayPage page.
+ * Generated class for the DetailPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -11,20 +10,16 @@ import {DetailPage} from "../detail/detail";
 
 @IonicPage()
 @Component({
-  selector: 'page-replay',
-  templateUrl: 'replay.html',
+  selector: 'page-detail',
+  templateUrl: 'detail.html',
 })
-export class ReplayPage {
+export class DetailPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ReplayPage');
-  }
-
-  detail(){
-    this.navCtrl.push(DetailPage);
+    console.log('ionViewDidLoad DetailPage');
   }
 
 }

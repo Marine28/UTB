@@ -1,3 +1,34 @@
 page-map {
+.scroll-content{
+  background-image: url("../../assets/imgs/map.png");
+}
 
+.recherche{
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+button{
+  background: #991526;
+  color: white;
+  padding: 10px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.rond{
+  background: #991526;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+}
+
+.input{
+  display: flex;
+  align-items: center;
+}
 }

@@ -16,6 +16,7 @@ import {CalendrierPage} from "../pages/calendrier/calendrier";
 import {ConnexionPage} from "../pages/connexion/connexion";
 import {InscriptionPage} from "../pages/inscription/inscription";
 import {CalendarModule} from "ion2-calendar";
+import {DetailPage} from "../pages/detail/detail";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {CalendarModule} from "ion2-calendar";
     ReplayPage,
     CalendrierPage,
     ConnexionPage,
-    InscriptionPage
+    InscriptionPage,
+    DetailPage
   ],
   imports: [
     BrowserModule,
@@ -48,7 +50,8 @@ import {CalendarModule} from "ion2-calendar";
     ReplayPage,
     CalendrierPage,
     ConnexionPage,
-    InscriptionPage
+    InscriptionPage,
+    DetailPage
   ],
   providers: [
     StatusBar,

@@ -27,7 +27,7 @@
 
   <div [ngSwitch]="pet">
     <ion-list *ngSwitchCase="'presse'">
-      <ion-item>
+      <ion-item (click)="detail()">
         <ion-thumbnail item-start>
           <img src="img/thumbnail-kitten-1.jpg">
         </ion-thumbnail>
