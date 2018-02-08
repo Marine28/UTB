@@ -6,20 +6,49 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import {TabsPage} from "../pages/tabs/tabs";
+import {ClassementPage} from "../pages/classement/classement";
+import {ReglesPage} from "../pages/regles/regles";
+import {MapPage} from "../pages/map/map";
+import {ProfilPage} from "../pages/profil/profil";
+import {ReplayPage} from "../pages/replay/replay";
+import {CalendrierPage} from "../pages/calendrier/calendrier";
+import {ConnexionPage} from "../pages/connexion/connexion";
+import {InscriptionPage} from "../pages/inscription/inscription";
+import {CalendarModule} from "ion2-calendar";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    TabsPage,
+    ClassementPage,
+    ReglesPage,
+    MapPage,
+    ProfilPage,
+    ReplayPage,
+    CalendrierPage,
+    ConnexionPage,
+    InscriptionPage
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    CalendarModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    TabsPage,
+    ClassementPage,
+    ReglesPage,
+    MapPage,
+    ProfilPage,
+    ReplayPage,
+    CalendrierPage,
+    ConnexionPage,
+    InscriptionPage
   ],
   providers: [
     StatusBar,

@@ -1,0 +1,29 @@
+page-replay {
+.scroll-content{
+  background: #2B2D3F;
+}
+
+  .item-block{
+    margin-top: 20px;
+    background: transparent;
+  }
+
+  .item-inner{
+    background: #424454;
+
+  }
+
+  .item-ios.item-block .item-inner{
+    border: none;
+  }
+
+  .list-ios > .item-block:first-child{
+    border: none;
+  }
+
+
+  .list-ios > .item-block:last-child{
+    border: none;
+  }
+
+}

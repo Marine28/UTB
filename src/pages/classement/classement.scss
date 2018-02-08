@@ -1,0 +1,39 @@
+page-classement {
+  ion-label{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+  }
+
+  .list-header{
+    background-color: #2B2D3F;
+  }
+
+  p.header-label{
+    color: white !important;
+  }
+
+  .bg-grey{
+    background-color: #FAFAFA;
+  }
+
+  .label p{
+    color: #191A2A;
+  }
+
+ .list{
+    margin-top: 40px;
+  }
+
+  ion-calendar{
+    background: #2B2D3F;
+  }
+
+  .scroll-content{
+    background: #2B2D3F;
+  }
+
+  ion-calendar-month button.days-btn p{
+    color: white;
+  }
+}

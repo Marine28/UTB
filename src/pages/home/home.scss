@@ -1,3 +1,25 @@
 page-home {
+.tabbar{
+  top: 43px;
+  bottom: 550px !important;
+
+}
+.tabs-md .tabbar{
+  background-color: #2B2D3F;
+}
+
+.tabs-md .tabbar span {
+  color: white;
+}
+
+.tabs-ios .tabbar{
+  background: transparent;
+}
+
+.scroll-content{
+  background-color: #2B2D3F;
+}
+
+
 
 }
